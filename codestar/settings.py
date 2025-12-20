@@ -42,6 +42,7 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'cloudinary_storage',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -54,6 +55,7 @@ INSTALLED_APPS = [
     'blog',
     'about',
     'django_summernote',
+    'cloudinary',
     'crispy_forms',
     'crispy_bootstrap5',
 ]
